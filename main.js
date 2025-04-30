@@ -8,8 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-function wats() {
-    window.location.href = "";
-}
 
+function wats() {
+    // ضع رقم الواتساب بصيغة دولية بدون "+" أو فراغات
+    var phone = "201281587997";
+    window.location.href = "https://wa.me/" + phone;
+}
 
