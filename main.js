@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function wats() {
     // ضع رقم الواتساب بصيغة دولية بدون "+" أو فراغات
-    var phone = "201281587997";
+    var phone = "201126881762";
     window.location.href = "https://wa.me/" + phone;
 }
 
