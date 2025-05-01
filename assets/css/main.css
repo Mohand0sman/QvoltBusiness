@@ -140,13 +140,13 @@ li,
   --tp-common-black: #000;
   --tp-common-gray: #FEF3DF;
   --tp-theme-primary: rgb(255, 94, 20);
-  --tp-theme-secondary: rgb(51, 204, 51);
+  --tp-theme-secondary: #0d6efd;
   --tp-theme-1: rgb(10, 18, 41);
   --tp-theme-2: #F94D1C;
   --tp-theme-3: #1B2335;
   --tp-theme-4: #eb003d;
-  --tp-heading-primary: rgb(51, 204, 51);
-  --tp-heading-secondary: rgb(51, 204, 51);
+  --tp-heading-primary: #1B2335;
+  --tp-heading-secondary: #0d6efd;
   /* --tp-heading-secondary: #1F242C; */
   --tp-heading-1: #2B2B5E;
   --tp-heading-2: #010d14;
@@ -8631,11 +8631,11 @@ blockquote img {
 }
 .tp-offer-arrow-box button.tp-offer-next {
   color: var(--tp-common-white);
-  background-color: rgb(51, 204, 51);
+  background-color: #0d6efd;
 }
 .tp-offer-arrow-box button:hover {
   color: var(--tp-common-white);
-  background-color: rgb(51, 204, 51);
+  background-color: #0d6efd;
 }
 
 .tp-offer-2-bg {
