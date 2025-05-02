@@ -336,6 +336,7 @@ nav {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  
 }
 
 /* كل خطوة */
@@ -384,6 +385,9 @@ nav {
 .step-arrow {
   font-size: 30px;
   color: #999;
+  display: inline-block; /* مهم لتفعيل transform */
+  transition: transform 0.3s ease; /* تأثير ناعم */
+
 }
 
 /*End Work SECTION */
@@ -472,7 +476,12 @@ nav {
     .contact-nav div {
         display: none;
     }
-
+    .steps-container  {
+        flex-direction: column;
+    }
+    .step-arrow {
+      transform: rotate(-90deg); /* يدور السهم للأسفل */
+    }
     .contact-nav p {
         margin-left: 0;
         margin-bottom: 5px;
