@@ -15,3 +15,7 @@ function wats() {
     window.location.href = "https://wa.me/" + phone;
 }
 
+
+  function openEmail() {
+    window.location.href = "mailto:kalihdosman6@gmail.com";
+  }
