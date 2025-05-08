@@ -17,5 +17,6 @@ function wats() {
 
 
   function openEmail() {
-    window.location.href = "mailto:kalihdosman6@gmail.com";
+    // window.location.href = "mailto:kalihdosman6@gmail.com";
+    window.location.href = href="https://mail.google.com/mail/?view=cm&fs=1&to=kalihdosman6@gmail.com";
   }
